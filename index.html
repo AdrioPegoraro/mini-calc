@@ -1,14 +1,28 @@
 <script>
 
-var operacao = Number(prompt("entre com uma operação: (+, -, *, /)"))
+var operacao = prompt("entre com uma operação: (+, -, *, /)")
+var numero1 = Number(prompt("Escolha o primeiro número:"))
+var numero2 = Number(prompt("Escolha o segundo número:"))
+var resultado;
 
+if (operacao == "+")
+{
+    resultado = numero1 + numero2
+}
+else if (operacao == "-")
+{
+    resultado = numero1 - numero2
+}
+else if (operacao == "*")
+{
+    resultado = numero1 * numero2
+}
+else if (operacao = "/")
+{
+    resultado = numero1 / numero2
+}
 
-
-
-
-
-
-
+alert("O resultado é " + resultado)
 
 
 
